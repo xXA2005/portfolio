@@ -1,0 +1,15 @@
+.footer {
+    background: linear-gradient(to right, rgb(153, 0, 255), rgb(25, 0, 255));
+    height: 10vh;
+}
+
+.footer-title {
+    color: rgb(0, 195, 255);
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+}
+
+.footer-title span{
+    color: rgb(0, 160, 209);
+    font-weight: 800;
+}

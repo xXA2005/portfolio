@@ -1,0 +1,56 @@
+* {
+    font-family: var(--font-family);
+}
+
+.services {
+    padding: 5rem 10rem;
+}
+
+@media screen and (max-width: 600px) {
+    .services {
+        padding: 2rem 1rem;
+    }
+}
+
+.stitle {
+    font-size: 2em;
+    text-align: center;
+    color: var(--color-text);
+    padding: 2em;
+}
+
+.scards{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 90vw;
+    border-radius: 10px;
+}
+
+.scard{
+    flex: 0.5;
+    margin: 1em;
+    transition: 1s flex;
+    color: white;
+    height: 10em;
+    box-shadow: 5px 5px 5px rgba(174, 0, 255, 0.288);
+
+}
+@media screen and (max-width: 1000px) {
+    .scards{
+        flex-direction: column;
+    }
+}
+
+.scard p{
+    opacity: 0;
+    transition: 1s ease;
+    margin: 1em;
+}
+
+.scard:hover{
+    flex: 1.25;
+}
+
+.scard:hover p{
+    opacity: 1;
+}
