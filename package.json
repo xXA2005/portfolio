@@ -1,5 +1,5 @@
 {
-  "homepage":"https://xXA2005.github.io/portfolio",
+  "homepage": "https://xXA2005.github.io/portfolio",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
