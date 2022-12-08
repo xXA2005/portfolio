@@ -1,0 +1,97 @@
+* {
+    font-family: var(--font-family);
+}
+
+.xxa__proj {
+    padding: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+    .xxa__proj {
+        padding: 2rem 1rem;
+    }
+}
+
+.list{
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 90vw;
+    border-radius: 10px;
+}
+
+.head{
+    padding-bottom: 0.7em;
+    box-shadow: 0px 5px 10px rgba(1 1 1/ 15%);
+    font-size: 2em;
+    padding-left: 1em;
+    padding-top: 0.3em;
+    color: #fff;
+    text-align: center;
+    color: var(--color-text);
+}
+
+
+.item-about {
+    display: flex;
+    overflow: hidden;
+    max-height: 0vh;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.6em;
+    transition: 1s ease;
+}
+
+.item{
+    padding: 0.5em 0.5em;
+    color: #fff;
+    font-size: 2em;
+}
+
+.item:hover .item-about {
+    max-height: 100vh;
+}
+
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #4487fc;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.icon{
+    color: #4487fc;
+    font-size: 3em;
+    text-align: center;
+}
+
+.card{
+    background-color: #eeeeee0e;
+    width: 18em;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.4s ease;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.info a {
+    cursor: pointer;
+    color: #4487fc;
+    font-weight: 800;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}

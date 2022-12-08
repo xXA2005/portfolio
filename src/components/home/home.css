@@ -1,0 +1,119 @@
+.xxa__home {
+    display: flex;
+    /* min-height: 100vh; */
+    padding-bottom: 8rem;
+}
+
+.xxa__home-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.xxa__home-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    margin-top: 1em;
+}
+
+.xxa__home-content p {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin: 1.5rem 0rem;
+}
+
+.xxa__home-button {
+    flex: 0.6;
+    min-width: 15rem;
+    min-height: 50px;
+    background: orangered;
+    border-radius: 17px;
+    margin: 0.5rem;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.1s ease;
+}
+
+.xxa__home-button:hover {
+    transform: scale(1.05);
+    background: rgb(228, 61, 0);
+}
+
+.xxa__home-skills {
+    flex: 1;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+.xxa__home-skills img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .xxa__home {
+        flex-direction: column;
+    }
+
+    .xxa__home-content {
+        margin: 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .xxa__home h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .xxa__home p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .xxa__home-button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .xxa__home h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .xxa__home p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .xxa__home-button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* .xxa__home-skills__box {
+    width: 350px;
+    min-height: 450px;
+    background: black;
+    margin-left: 10rem;
+} */
+
